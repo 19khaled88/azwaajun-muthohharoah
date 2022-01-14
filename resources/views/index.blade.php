@@ -272,29 +272,29 @@
 
           <div class="col-lg-3 col-6 text-center text-center-counter" >
             <div style="padding-top:50px">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Total Candidate</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-6 text-center text-center-counter">
           <div style="padding-top:50px">
-            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
+            <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Groom</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-6 text-center text-center-counter">
           <div style="padding-top:50px">
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
+            <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Bride</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-6 text-center text-center-counter">
           <div style="padding-top:50px">
             <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+            <p>Successful cases</p>
             </div>
           </div>
 

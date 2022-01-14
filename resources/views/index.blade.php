@@ -121,7 +121,7 @@
                                 <label>পেশা:</label>
                               </div>
                               <div>
-                                <input type="number" name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px;margin-top:4px" placeholder="Biodata number"/>
+                                <input type="number" name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px;margin-top:4px" placeholder="বায়োডাটা নম্বর দিন"/>
                                       
                                    <br>
                                     <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">

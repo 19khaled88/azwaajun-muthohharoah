@@ -15,6 +15,11 @@ class BiodataController extends Controller
     public function biodataCreate(){
       return view('biodataCreate');
     }
+
+    public function searchbio(){
+      return redirect()->to('/biodataIndex')->with('message', 'Thank you for searching.');
+    }
+    
     public function biodatainsert(Request $request){
     
       $data=array();

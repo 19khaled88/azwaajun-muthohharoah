@@ -58,6 +58,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent" >
     <div class="container d-flex align-items-center">
+    <img style="width:40px;height:40px;border-radius:50%;margin-right:3px" src="{{asset('assets/img/azwaajumMuthohharoa.jpg')}}" alt="" />
     <h1 class="logo me-auto"><a href="/">Azwaajun Muthohharoh</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -78,12 +79,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      </div>
+      
     </div>
   </header><!-- End Header -->
 

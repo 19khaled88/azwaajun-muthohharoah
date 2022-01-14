@@ -62,9 +62,10 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    
     <div class="container d-flex align-items-center">
-
-      <h1 class="logo me-auto siteName"><a href="/" style="font-size:18px">Azwaajun Muthohharoh</a></h1>
+    <img style="width:40px;height:40px;border-radius:50%;margin-right:3px" src="{{asset('assets/img/azwaajumMuthohharoa.jpg')}}" alt="" />
+      <h1 class="logo me-auto siteName"><a href="/" >Azwaajun Muthohharoh</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -86,13 +87,6 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://www.facebook.com/Azwaajum-Muthohharoh-%E0%A6%AA%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80-890949244274398" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      </div>
-
     </div>
   </header><!-- End Header -->
 
@@ -111,46 +105,52 @@
                   <div class="container"  data-aos="fade-up">
                     <div class="row" style="height:400px">
                       <div class="col-md-6 col-lg-4 wow bounceInUp" style="width:550px;" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="box" style="height:280px;">
+                        <div class="box" style="height:280px;padding-bottom:0px;">
                           <div class="icon" style="background: #fceef3;"><i class="bi bi-search" style="color: #ff689b;"></i></div>
-                            <div style="display:flex">
-                              <div style="text-align:left; padding-right: 25px">
-                                <label>বায়োডাটা নম্বর:</label><br>
-                                <label>পাত্র/পাত্রী:</label><br>
-                                <label>স্থান:</label><br>
-                                <label>পেশা:</label>
+                            <form action="/searchbio" method="post">
+                            {{ csrf_field() }}
+                              <div style="display:flex;height:180px;padding-left:40px;padding-right:20px">
+                                  <div style="text-align:left; padding-right: 25px">
+                                    <label style="padding-bottom:6px;padding-top:4px">বায়োডাটা নম্বর:</label><br>
+                                    <label style="padding-bottom:6px">পাত্র/পাত্রী:</label><br>
+                                    <label style="padding-bottom:6px">স্থান:</label><br>
+                                    <label>পেশা:</label>
+                                  </div>
+                                  <div>
+                                      <div>
+                                      <input type="number" name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px;margin-top:4px" placeholder="বায়োডাটা নম্বর দিন"/><br>
+                                        <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">
+                                          <option value="" style="border-radius:5px"></option>
+                                          <option value="পাত্র">পাত্র</option>
+                                          <option value="পাত্রী">পাত্রী</option>
+                                        </select><br>
+                                        <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">
+                                          <option value=""></option>
+                                          <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                                          <option value="ঢাকা">ঢাকা</option>
+                                          <option value="সিলেট">সিলেট</option>
+                                          <option value="কুমিল্লা">কুমিল্লা</option>
+                                          <option value="কক্সবাজার">কক্সবাজার</option>
+                                          <option value="বান্দরবন">বান্দরবন</option>
+                                        </select><br>
+                                        <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px;">
+                                          <option value=""></option>
+                                          <option value="স্টুডেন্ট">স্টুডেন্ট</option>
+                                          <option value="সাংবাদিক">সাংবাদিক</option>
+                                          <option value="শিক্ষক">শিক্ষক</option>
+                                          <option value="আইনজীবী">আইনজীবী</option>
+                                          <option value="সরকারি কর্মকর্তা">সরকারি কর্মকর্তা</option>
+                                          <option value="বেসরকারি কর্মকর্তা">বেসরকারি কর্মকর্তা</option>
+                                        </select>
+                                        
+                                      </div>
+                                      <div>
+                                        <button type="submit" value="Submit" style="border:0px solid; background-color: skyblue; border-radius:5px;width:100px;">Submit</button>
+                                      </div>
+                                  </div>
+
                               </div>
-                              <div>
-                                <input type="number" name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px;margin-top:4px" placeholder="বায়োডাটা নম্বর দিন"/>
-                                      
-                                   <br>
-                                    <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">
-                                      <option value="volvo" style="border-radius:5px"></option>
-                                      <option value="পাত্র">পাত্র</option>
-                                      <option value="পাত্রী">পাত্রী</option>
-                                      
-                                    </select><br>
-                                    <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">
-                                      <option value="volvo"></option>
-                                      <option value="saab">চট্টগ্রাম</option>
-                                      <option value="mercedes">ঢাকা</option>
-                                      <option value="audi">সিলেট</option>
-                                      <option value="audi">কুমিল্লা</option>
-                                      <option value="audi">কক্সবাজার</option>
-                                      <option value="audi">বান্দরবন</option>
-                                    </select><br>
-                                    <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:10px;">
-                                      <option value="volvo"></option>
-                                      <option value="saab">স্টুডেন্ট</option>
-                                      <option value="mercedes">সাংবাদিক</option>
-                                      <option value="audi">শিক্ষক</option>
-                                      <option value="audi">আইনজীবী</option>
-                                      <option value="audi">সরকারি কর্মকর্তা</option>
-                                      <option value="audi">বেসরকারি কর্মকর্তা</option>
-                                    </select>
-                                    <button type="submit" value="Submit" style="border:1px solid orange;border:0px solid; background-color: skyblue; border-radius:5px;width:100px;">Submit</button>
-                              </div>
-                            </div>
+                            </form>
                           </div>
                         </div>
                       </div>
@@ -447,11 +447,7 @@
                   </div>
                   <p style=" text-align: justify;">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                 </div>
-
-               
-
               </div>
-
               <div style="padding-left:5px;padding-right:0px" class="col-sm-4">
                 <div  class="footer-links" style="margin-bottom:7px">
                   <h4 style="margin-bottom:2px;" >Useful Links</h4>
@@ -461,7 +457,6 @@
                     <li style="padding-bottom:1px;padding-top:1px"><a href="#">Services</a></li>
                   </ul>
                 </div>
-
                 <div class="footer-links">
                   <h4 style="margin-bottom:2px;">Contact Us</h4>
                   <p >

@@ -34,5 +34,6 @@ Route::post('/login',[LoginRegisterController::class, 'login']);
 Route::post('/register',[LoginRegisterController::class, 'register']);
 Route::post('/biodatainsert',[BiodataController::class, 'biodatainsert']);
 Route::post('/message',[MessageController::class, 'message']);
+Route::post('/searchbio',[BiodataController::class, 'searchbio']);
 
 

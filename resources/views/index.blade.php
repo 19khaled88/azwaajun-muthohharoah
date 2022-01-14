@@ -115,10 +115,10 @@
                           <div class="icon" style="background: #fceef3;"><i class="bi bi-search" style="color: #ff689b;"></i></div>
                             <div style="display:flex">
                               <div style="text-align:left; padding-right: 25px">
-                                <label>Bio-data Number:</label><br>
-                                <label>Groom/Bride:</label><br>
-                                <label>Location:</label><br>
-                                <label>Profession:</label>
+                                <label>বায়োডাটা নম্বর:</label><br>
+                                <label>পাত্র/পাত্রী:</label><br>
+                                <label>স্থান:</label><br>
+                                <label>পেশা:</label>
                               </div>
                               <div>
                                 <input type="number" name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px;margin-top:4px" placeholder="Biodata number"/>
@@ -126,21 +126,27 @@
                                    <br>
                                     <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">
                                       <option value="volvo" style="border-radius:5px"></option>
-                                      <option value="saab">Saab</option>
-                                      <option value="mercedes">Mercedes</option>
-                                      <option value="audi">Audi</option>
+                                      <option value="পাত্র">পাত্র</option>
+                                      <option value="পাত্রী">পাত্রী</option>
+                                      
                                     </select><br>
                                     <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:4px">
                                       <option value="volvo"></option>
-                                      <option value="saab">Saab</option>
-                                      <option value="mercedes">Mercedes</option>
-                                      <option value="audi">Audi</option>
+                                      <option value="saab">চট্টগ্রাম</option>
+                                      <option value="mercedes">ঢাকা</option>
+                                      <option value="audi">সিলেট</option>
+                                      <option value="audi">কুমিল্লা</option>
+                                      <option value="audi">কক্সবাজার</option>
+                                      <option value="audi">বান্দরবন</option>
                                     </select><br>
                                     <select name="cars" id="cars" style="border:1px solid orange;border-radius:5px;width:200px;margin-bottom:10px;">
                                       <option value="volvo"></option>
-                                      <option value="saab">Saab</option>
-                                      <option value="mercedes">Mercedes</option>
-                                      <option value="audi">Audi</option>
+                                      <option value="saab">স্টুডেন্ট</option>
+                                      <option value="mercedes">সাংবাদিক</option>
+                                      <option value="audi">শিক্ষক</option>
+                                      <option value="audi">আইনজীবী</option>
+                                      <option value="audi">সরকারি কর্মকর্তা</option>
+                                      <option value="audi">বেসরকারি কর্মকর্তা</option>
                                     </select>
                                     <button type="submit" value="Submit" style="border:1px solid orange;border:0px solid; background-color: skyblue; border-radius:5px;width:100px;">Submit</button>
                               </div>

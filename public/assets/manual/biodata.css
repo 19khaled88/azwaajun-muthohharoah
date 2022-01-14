@@ -210,14 +210,14 @@ div.stickyprogress{
 #msform #form-button-1{
   left: 50%;
   position: absolute;
-  top:85%;
+  top:90%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 #msform #form-button-11{
   left: 30%;
   position: absolute;
-  top:85%;
+  top:90%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -225,14 +225,14 @@ div.stickyprogress{
 #msform #form-button-21{
   left: 30%;
   position: absolute;
-  top:60%;
+  top:90%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 #msform #form-button-2{
   left: 50%;
   position: absolute;
-  top:60%;
+  top:90%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -253,14 +253,14 @@ div.stickyprogress{
 #msform #form-button-5{
   left: 50%;
   position: absolute;
-  top:80%;
+  top:90%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 #msform #form-button-51{
   left: 30%;
   position: absolute;
-  top:80%;
+  top:90%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }

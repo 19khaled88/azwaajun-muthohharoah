@@ -550,6 +550,28 @@ section {
 
 
 
+#counter-bar{
+  background-color: tomato;
+  height: 155px;
+  border-radius: 5px;
+}
+#counter-bar p{
+margin: 0px;
+padding: 0px;
+
+}
+.text-center-counter{
+  margin-top: 1px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  height: 153px;
+  width: 153px;
+  background-color: palegreen;
+  margin-left: 106px;
+}
+
+
+
 
 
 /* Clients Section
